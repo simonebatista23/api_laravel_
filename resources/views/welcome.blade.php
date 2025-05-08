@@ -19,6 +19,8 @@
 
         <button onclick="fetchData('produtos')" class="bg-indigo-500 text-white px-4 py-2 mb-4 rounded">Listar Produtos</button>
 
+        <button onclick="fetchData('produtos/1')" class="bg-green-700 text-white px-4 py-2 mb-4 rounded">Buscar Produtos 1</button>
+
         <button onclick="fetchData('vendas')" class="bg-red-500 text-white px-4 py-2 mb-4 rounded">Listar Vendas</button>
 
         <div id="result" class="mt-6 p-4 bg-white border rounded shadow-md"></div>
